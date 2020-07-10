@@ -3,7 +3,7 @@ services:
   grafana_graphite:
     build: .
     image: mshamim/grafana-graphite:1.0
-    container_name: kamon-grafana-dashboard
+    container_name: mshamim-grafana-dashboard
     ports:
       - '80:80'
       - '81:81'
