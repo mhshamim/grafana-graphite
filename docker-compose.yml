@@ -1,8 +1,8 @@
 version: '2'
 services:
   grafana_graphite:
-    build: .
     image: mshamim/grafana-graphite:1.0
+#   build: .
     container_name: mshamim-grafana-dashboard
     ports:
       - '80:80'
