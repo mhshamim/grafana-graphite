@@ -4,7 +4,7 @@ StatsD + Graphite + Grafana 6.6.2 + Kamon Dashboards
 ----------------------------------------------------
 
 This image contains a sensible default configuration of StatsD, Graphite and Grafana, and comes bundled with a example
-dashboard that gives you the basic metrics currently collected by Kamon for both Actors and Traces.
+dashboard that gives you the basic metrics.
 
 ### Using the Docker Index ###
 
